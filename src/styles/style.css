@@ -1,0 +1,51 @@
+/**************************** Layout component ****************** */
+.layout-style {
+	display: flex;
+	flex-direction: column;
+	width: 100vw;
+	height: 100vh;
+}
+.children {
+	bottom: 200px;
+	top: 200px;
+	flex-grow: 1;
+	height: max-content;
+}
+/* ************ Header component css ********** */
+.nav-bar {
+	list-style: none;
+	display: flex;
+	/* align-items: center;
+	justify-content: center; */
+}
+.nav-bar li {
+	margin: 0 20px;
+	cursor: pointer;
+}
+.nav-bar li a {
+	text-decoration: none;
+	color: #14213d;
+	font-weight: 600;
+}
+
+/* **************** drawer navbar **************** */
+.nav-drawer {
+	list-style: none;
+	padding: 60px;
+}
+.nav-drawer li {
+	padding: 20px;
+	cursor: pointer;
+}
+.nav-drawer li a {
+	text-decoration: none;
+	color: #14213d;
+	font-size: 1.2em;
+	font-weight: 600;
+}
+
+/* ********* Home Component *************** */
+
+.home {
+	background: url('../../public/images/Banner.jpg');
+}
