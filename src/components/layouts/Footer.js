@@ -4,6 +4,7 @@ import TwitterIcon from '@mui/icons-material/Twitter';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import GitHubIcon from '@mui/icons-material/GitHub';
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
 	return (
@@ -26,16 +27,26 @@ const Footer = () => {
 							mr: 1,
 						},
 						'& svg:hover': {
-							color: '#14213d',
 							transform: 'translateX(5px)',
 							transition: 'all 400ms',
 						},
+						'& a': {
+							color: '#14213d',
+						},
 					}}
 				>
-					<TwitterIcon />
-					<LinkedInIcon />
-					<GitHubIcon />
-					<InstagramIcon />
+					<Link to="https://twitter.com/Anjali04051502">
+						<TwitterIcon />
+					</Link>
+					<Link to="https://www.linkedin.com/in/anjali-singh015/">
+						<LinkedInIcon />
+					</Link>
+					<Link to="https://github.com/AnjaliSingh02">
+						<GitHubIcon />
+					</Link>
+					<Link to="">
+						<InstagramIcon />
+					</Link>
 				</Box>
 
 				<Typography
