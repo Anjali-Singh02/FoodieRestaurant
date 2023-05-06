@@ -120,7 +120,7 @@ const Header = () => {
 						{drawer}
 					</Drawer>
 				</Box>
-				<Box sx={{ p: 1 }} />
+				<Box sx={{ p: 0 }} />
 				<Toolbar />
 			</Box>
 		</>
